@@ -4,9 +4,14 @@ from openpyxl import Workbook, load_workbook  # type: ignore
 from openpyxl.styles import Font, Alignment, PatternFill, Border, Side  # type: ignore
 from datetime import datetime
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+secret_key = os.getenv('SECRET_KEY')
 
 app = Flask(__name__)
-app.secret_key = "sua_chave_secreta_aqui"
+
+app.secret_key = secret_key
 
 ARQUIVO_SAIDA = "saida_materiais.csv"
 ARQUIVO_NOMES = "nomes.txt"
