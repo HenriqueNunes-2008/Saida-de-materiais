@@ -1,13 +1,13 @@
 # Saída de Materiais
 
-## 📦 Sobre o Projeto
+##  Sobre o Projeto
 Este projeto foi desenvolvido para gerenciar o processo de **saída de materiais** de um almoxarifado, facilitando o controle e a organização das retiradas feitas pelos colaboradores.
 
 Ele permite registrar, processar e acompanhar a movimentação dos materiais, contribuindo para maior eficiência no controle de estoque.
 
 ---
 
-## 🧠 Funcionalidades Principais
+##  Funcionalidades Principais
 
 - Registro de saída de materiais  
 - Interface simples para cadastro e controle  
@@ -16,9 +16,9 @@ Ele permite registrar, processar e acompanhar a movimentação dos materiais, co
 
 ---
 
-## 🚀 Começando
+##  Começando
 
-### 🔧 Pré-requisitos
+###  Pré-requisitos
 
 Antes de usar o projeto, certifique-se de ter instalado:
 
@@ -27,7 +27,7 @@ Antes de usar o projeto, certifique-se de ter instalado:
 
 ---
 
-### 📥 Instalação
+###  Instalação
 
 1. Clone o repositório:
 ```bash
@@ -37,7 +37,7 @@ git clone https://github.com/HenriqueNunes-2008/Saida-de-materiais.git
 
 pip install -r requirements.txt
 
-▶️ Como Executar
+ Como Executar
 
 Para iniciar a aplicação, execute:
 python app.py
